@@ -1,3 +1,8 @@
+from enum import Enum
+from typing import Optional
+from ConnectFour.Python.player import Player
+from ConnectFour.Python.board import Board
+
 class GameState(Enum):
     IN_PROGRESS = 'IN_PROGRESS'
     DRAW = 'DRAW'

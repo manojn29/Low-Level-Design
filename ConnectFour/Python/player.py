@@ -1,4 +1,4 @@
-from ConnectFour.Python.disc_color import DiscColor
+from ConnectFour.Python.game import DiscColor
 
 class Player:
     def __init__(self, name: str, disc_color: DiscColor):

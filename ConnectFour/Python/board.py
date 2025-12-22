@@ -1,4 +1,4 @@
-from ConnectFour.Python.disc_color import DiscColor
+from ConnectFour.Python.game import DiscColor
 
 class Board:
     def __init__(self, rows: int = 6, cols = 7):
